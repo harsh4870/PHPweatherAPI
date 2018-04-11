@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+/* General CSS */
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body,html {
+	
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	font-weight: 700;	
+}
+#textboxid
+{
+    height:20px;
+    font-size:14pt;
+}
+header{
+	margin:20px;
+}
+
+header a{
+	color:#f1f1f1;
+}
+
+header h1{
+    margin: 0 auto 0 0;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 1.65em;
+    line-height: 1;
+    display: inline-block;
+	color:#fff;
+	margin-top:5px;
+}
+/*DEMO CSS*/
+
+body{
+	font-size:14pt;
+	color:#FFFFFF;
+	position:relative;
+	background: transparent url("background.jpg") no-repeat scroll center top / cover;
+	overflow: hidden;
+}
+
+
+
+#clima{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+p {
+	text-align:center;
+	font-family: "Roboto", sans-serif;
+	color:#252445;
+}
+.date{
+	font-size:15px;	
+}
+
+.temp{
+	font-size:125px;	
+}
+.city{
+	font-size:50px;	
+}
+
+
+.temp span{
+	font-size:55px;	
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.icon1{
+	text-align:center;
+	font-family: "Roboto", sans-serif;
+	color:#252445;
+}
