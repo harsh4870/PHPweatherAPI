@@ -1,0 +1,2 @@
+# PHPweatherAPI
+PHP openweather API 
